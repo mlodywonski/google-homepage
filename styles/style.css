@@ -1,16 +1,143 @@
-.logo {
-  width: 500px;
-  margin: 0 auto;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial,sans-serif;
+  font-size: 13px;
 }
 
 
-.search form {
+.logo {
+  position: relative;
+  top: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 272px;
+}
+
+
+.search {
+  position: relative;
+  top: 170px;
   width: 600px;
   margin: 0 auto;
+  text-align: center;
 }
 
 
 .bar {
   width: 600px;
+  height: 30px;
 
+}
+
+.buttons {
+  position: relative;
+  top: 200px;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.topbar li {
+  display: inline-block;
+  float: right;
+}
+
+.navbutton {
+  margin: 15px 4px;
+  padding: 9px 10px;
+}
+
+.bluebutton {
+  background-color: #566cff;
+  margin: 15px 22px 10px 4px ;
+  padding: 9px 15px;
+  border-radius: 3px;
+  font-weight: bold
+}
+
+
+.botbar {
+  position: absolute;
+  bottom: 0;
+  background-color: #f1f0f0;
+  width: 100%;
+  border-top: 1px solid #e2e2e2;
+}
+
+.botbar li {
+  display: inline-block;
+  float: left;
+}
+
+.botrightbar {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.botrightbar li {
+  display:inline-block;
+  float: right;
+}
+
+
+.botbar li, .botrightbar li {
+  padding: 15px 13px;
+}
+
+.advert {
+  margin-left: 12px;
+}
+
+.settings {
+  margin-right: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.bluehover:hover {
+  text-decoration: none;
+}
+
+
+a:visited {
+  color: #727272;
+}
+
+a.topbutton:visited {
+  color: #353535;
+}
+
+a.bluehover:visited {
+  color: white;
+}
+
+
+.buttons input{
+  color: #727272;
+  font-weight: bold;
+  border: 0;
+  padding: 10px;
+  background-color: #f1f0f0;
+  margin: 0 2px;
+}
+
+input[type=text] {
+  padding: 6px 10px;
+}
+
+
+.language {
+  text-align: center;
+  position: relative;
+  top: 220px;
 }
